@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg"
+    android:background="@color/blue"
     tools:context=".presentation.search.SearchFragment">
 
 
@@ -12,7 +12,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/fg"
+        android:background="@color/dark"
         android:orientation="horizontal"
         android:paddingTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,7 +69,7 @@
         android:fontFamily="@font/helvetica"
         android:gravity="center"
         android:text="@string/sonuc_bulunamadi"
-        android:textColor="@color/bold_text"
+        android:textColor="@color/light_brown"
         android:textSize="20sp"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"

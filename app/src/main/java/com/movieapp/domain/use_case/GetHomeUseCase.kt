@@ -2,7 +2,6 @@ package com.movieapp.domain.use_case
 
 import com.movieapp.common.Resource
 import com.movieapp.data.remote.dto.toHome
-import com.movieapp.domain.model.Home
 import com.movieapp.domain.model.HomeTypeModel
 import com.movieapp.domain.repository.IRepository
 import kotlinx.coroutines.flow.Flow
@@ -15,17 +14,45 @@ import javax.inject.Inject
 class GetHomeUseCase @Inject constructor(
     private val repository: IRepository
 ) {
-    operator fun invoke(): Flow<Resource<List<List<Home>>>> = flow {
+    operator fun invoke(): Flow<Resource<List<HomeTypeModel>>> = flow {
         try {
             emit(Resource.Loading())
             val popular = repository.getPopular().results.map { it.toHome() }
             val topRated = repository.getTopRated().results.map { it.toHome() }
             val upcoming = repository.getUpcoming().results.map { it.toHome() }
 
-            val listData: MutableList<List<Home>> = mutableListOf()
+            val listData: ArrayList<HomeTypeModel> = arrayListOf()
 
-            listData.addAll(mutableListOf(popular, topRated, upcoming))
+            listData.addAll(
+                arrayListOf(
+                    HomeTypeModel.Title(
+                        title = "Popular"
+                    ),
+                    HomeTypeModel.Horizontal(
+                        data = popular
+                    ),
+                    HomeTypeModel.Title(
+                        title = "Top Rated"
+                    ),
+                    HomeTypeModel.Horizontal(
+                        data = topRated
+                    ),
+                    HomeTypeModel.Title(
+                        title = "Upcoming"
+                    ),
+                )
+            )
+            for (i in upcoming) {
+                listData.add(
+                    HomeTypeModel.Vertical(
+                        id = i.id,
+                        title = i.title,
+                        image = i.image,
+                        imdb = i.imdb
+                    )
+                )
 
+            }
 
             emit(Resource.Success((listData)))
         } catch (e: HttpException) {

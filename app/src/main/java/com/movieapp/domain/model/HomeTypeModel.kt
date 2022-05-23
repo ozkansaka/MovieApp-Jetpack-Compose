@@ -3,7 +3,7 @@ package com.movieapp.domain.model
 sealed class HomeTypeModel {
 
     data class Title(
-        val title: String?
+        val title: String
     ) : HomeTypeModel()
 
     data class Horizontal(
@@ -12,8 +12,8 @@ sealed class HomeTypeModel {
 
     data class Vertical(
         val id: Int,
-        val title: String?,
-        val image: String?,
-        val imdb:String?
+        val title: String,
+        val image: String,
+        val imdb:String
     ) : HomeTypeModel()
 }

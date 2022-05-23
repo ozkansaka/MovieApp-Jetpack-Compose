@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg"
+    android:background="@color/blue"
     tools:context=".presentation.splash.SplashActivity">
 
     <ImageView
@@ -27,7 +27,7 @@
         android:layout_marginTop="20dp"
         android:max="100"
         android:progress="0"
-        android:progressBackgroundTint="@color/bold_text"
+        android:progressBackgroundTint="@color/light_brown"
         android:progressTintMode="add"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

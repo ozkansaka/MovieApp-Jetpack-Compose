@@ -7,11 +7,11 @@
     <color name="teal_700">#FF018786</color>
 
 
-    <color name="fg">#0E141B</color>
-    <color name="bg">#141d26</color>
-    <color name="box">#886944</color>
-    <color name="bold_text">#BFAE99</color>
-    <color name="text">#F2E6D0</color>
+    <color name="dark">#0E141B</color>
+    <color name="blue">#141d26</color>
+    <color name="brown">#886944</color>
+    <color name="light_brown">#BFAE99</color>
+    <color name="white">#F2E6D0</color>
 
 
     <color name="transparent">#BE886944</color>

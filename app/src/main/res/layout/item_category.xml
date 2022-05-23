@@ -16,7 +16,7 @@
         android:minHeight="100dp"
         android:padding="10dp"
         android:text="@string/lorem_ipsum"
-        android:textColor="@color/text"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
