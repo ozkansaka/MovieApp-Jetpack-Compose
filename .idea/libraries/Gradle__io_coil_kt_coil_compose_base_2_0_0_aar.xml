@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: io.coil-kt:coil-compose-base:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/331f332c0fd66483c1ff6f00e89bfd2d/transformed/coil-compose-base-2.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/797a74c04da0f1cd00cdc8b5a9c74884/transformed/coil-compose-base-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/797a74c04da0f1cd00cdc8b5a9c74884/transformed/coil-compose-base-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/797a74c04da0f1cd00cdc8b5a9c74884/transformed/coil-compose-base-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/io.coil-kt/coil-compose-base/2.0.0/4f0eacdf484f91ac199e68ea793633c8d92d3110/coil-compose-base-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/io.coil-kt/coil-compose-base/2.0.0/67d88f780dd694fe9c8766e438199420bc274db7/coil-compose-base-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

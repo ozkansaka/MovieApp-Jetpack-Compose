@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.databinding:databinding-adapters:7.1.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/46a11e2a1e404d46520b74fd7715fa75/transformed/databinding-adapters-7.1.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46a11e2a1e404d46520b74fd7715fa75/transformed/databinding-adapters-7.1.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46a11e2a1e404d46520b74fd7715fa75/transformed/databinding-adapters-7.1.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/691c8894e9fd09c0c248625f78b1cd34/transformed/databinding-adapters-7.1.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/691c8894e9fd09c0c248625f78b1cd34/transformed/databinding-adapters-7.1.2/res" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/691c8894e9fd09c0c248625f78b1cd34/transformed/databinding-adapters-7.1.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-adapters/7.1.2/30b6f70fdc4505025da366fef5213eb890859b3d/databinding-adapters-7.1.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/androidx.databinding/databinding-adapters/7.1.2/30b6f70fdc4505025da366fef5213eb890859b3d/databinding-adapters-7.1.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

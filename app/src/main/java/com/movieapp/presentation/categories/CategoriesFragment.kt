@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.movieapp.R
 import com.movieapp.databinding.FragmentCategoriesBinding
-import com.movieapp.presentation.home.HomeAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 import kotlinx.coroutines.flow.collect

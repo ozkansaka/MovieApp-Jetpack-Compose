@@ -16,7 +16,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.movieapp.R
 import com.movieapp.databinding.FragmentHomeBinding
 import com.movieapp.databinding.FragmentSearchBinding
-import com.movieapp.presentation.home.HomeAdapter
 import com.movieapp.presentation.home.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay

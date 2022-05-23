@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.runtime:runtime:1.1.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/cb95c8217c8c01c5600a38983d0459b6/transformed/runtime-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/cb95c8217c8c01c5600a38983d0459b6/transformed/runtime-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/cb95c8217c8c01c5600a38983d0459b6/transformed/runtime-1.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/androidx.compose.runtime/runtime/1.1.1/7ebc50c3f957ae73a45decd48282f25f8df77201/runtime-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.accompanist:accompanist-pager:0.13.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/50a6e00b4769da430842259d634403da/transformed/accompanist-pager-0.13.0/res" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/e65b36e0851956e0f5cfeb9bb7963c56/transformed/accompanist-pager-0.13.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/e65b36e0851956e0f5cfeb9bb7963c56/transformed/accompanist-pager-0.13.0/res" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/e65b36e0851956e0f5cfeb9bb7963c56/transformed/accompanist-pager-0.13.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/com.google.accompanist/accompanist-pager/0.13.0/48e1af481941750745dadc3da4e568e2bc59f668/accompanist-pager-0.13.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/com.google.accompanist/accompanist-pager/0.13.0/215a879796b064a584bf3b079488fdbba496cbf3/accompanist-pager-0.13.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

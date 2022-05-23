@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bumptech.glide:glide:4.13.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/249d4b6f12854c897e18fdbc0d37b538/transformed/glide-4.13.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/249d4b6f12854c897e18fdbc0d37b538/transformed/glide-4.13.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/249d4b6f12854c897e18fdbc0d37b538/transformed/glide-4.13.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/857ae7db51b2f1976b125ebcaf1aa8d6/transformed/glide-4.13.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/857ae7db51b2f1976b125ebcaf1aa8d6/transformed/glide-4.13.0/res" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/857ae7db51b2f1976b125ebcaf1aa8d6/transformed/glide-4.13.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.13.0/eded0ab6151001e38ee4114efb3f6047335bf197/glide-4.13.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.13.0/eded0ab6151001e38ee4114efb3f6047335bf197/glide-4.13.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.13.0/cebbc9ed9604a503634e77f47d21c5551980fd5e/glide-4.13.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.13.0/cebbc9ed9604a503634e77f47d21c5551980fd5e/glide-4.13.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

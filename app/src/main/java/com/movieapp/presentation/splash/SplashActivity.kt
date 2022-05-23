@@ -15,9 +15,10 @@ class SplashActivity : AppCompatActivity() {
         val binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val main = Intent(this, MainActivity::class.java)
+        startActivity(main)
+        finish()
 
-
-        var i = 0
+        /*var i = 0
         val timer = object : CountDownTimer(2000, 1000) {
 
             override fun onTick(millisUntilFinished: Long) {
@@ -35,6 +36,6 @@ class SplashActivity : AppCompatActivity() {
                 finish()
             }
         }
-        timer.start()
+        timer.start()*/
     }
 }
