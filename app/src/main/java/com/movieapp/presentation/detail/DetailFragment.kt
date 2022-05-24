@@ -18,7 +18,6 @@ import com.movieapp.R
 import com.movieapp.databinding.FragmentDetailBinding
 import com.movieapp.extensions.loadImage
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.flow.collect
 
 @AndroidEntryPoint
 class DetailFragment : Fragment() {

@@ -3,7 +3,6 @@ package com.movieapp.presentation.category_detail
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.movieapp.common.Resource
-import com.movieapp.domain.use_case.GetCategoriesUseCase
 import com.movieapp.domain.use_case.GetCategoryDetailUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

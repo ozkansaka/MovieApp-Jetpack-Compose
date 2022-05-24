@@ -1,11 +1,8 @@
 package com.movieapp.presentation.splash
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.CountDownTimer
-import android.widget.Toast
-import com.movieapp.R
+import androidx.appcompat.app.AppCompatActivity
 import com.movieapp.databinding.ActivitySplashBinding
 import com.movieapp.presentation.main.MainActivity
 

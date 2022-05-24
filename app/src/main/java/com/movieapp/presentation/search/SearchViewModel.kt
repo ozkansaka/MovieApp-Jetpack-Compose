@@ -3,7 +3,6 @@ package com.movieapp.presentation.search
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.movieapp.common.Resource
-import com.movieapp.domain.use_case.GetHomeUseCase
 import com.movieapp.domain.use_case.GetSearchUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

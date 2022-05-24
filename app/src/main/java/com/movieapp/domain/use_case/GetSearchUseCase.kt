@@ -1,9 +1,7 @@
 package com.movieapp.domain.use_case
 
 import com.movieapp.common.Resource
-import com.movieapp.data.remote.dto.toDetail
 import com.movieapp.data.remote.dto.toSearch
-import com.movieapp.domain.model.Detail
 import com.movieapp.domain.model.Search
 import com.movieapp.domain.repository.IRepository
 import kotlinx.coroutines.flow.Flow

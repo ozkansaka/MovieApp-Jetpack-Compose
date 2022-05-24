@@ -1,17 +1,12 @@
 package com.movieapp.presentation.search
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DiffUtil
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.movieapp.R
-import com.movieapp.databinding.*
-import com.movieapp.domain.model.Categories
-import com.movieapp.domain.model.HomeTypeModel
+import com.movieapp.databinding.ItemSearchBinding
 import com.movieapp.domain.model.Search
 import com.movieapp.extensions.loadImage
 

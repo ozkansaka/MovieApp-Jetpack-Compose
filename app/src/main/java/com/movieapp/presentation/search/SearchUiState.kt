@@ -1,6 +1,5 @@
 package com.movieapp.presentation.search
 
-import com.movieapp.domain.model.HomeTypeModel
 import com.movieapp.domain.model.Search
 
 data class SearchUiState(

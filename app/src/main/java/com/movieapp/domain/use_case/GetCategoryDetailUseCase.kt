@@ -1,13 +1,8 @@
 package com.movieapp.domain.use_case
 
 import com.movieapp.common.Resource
-import com.movieapp.data.remote.dto.toCategories
 import com.movieapp.data.remote.dto.toCategoryDetail
-import com.movieapp.data.remote.dto.toDetail
-import com.movieapp.data.remote.dto.toHome
-import com.movieapp.domain.model.Categories
 import com.movieapp.domain.model.CategoryDetail
-import com.movieapp.domain.model.Detail
 import com.movieapp.domain.repository.IRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

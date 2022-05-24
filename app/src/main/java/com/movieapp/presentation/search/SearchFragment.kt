@@ -1,13 +1,11 @@
 package com.movieapp.presentation.search
 
 import android.os.Bundle
-import android.os.CountDownTimer
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.SearchView
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -15,10 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.movieapp.R
 import com.movieapp.databinding.FragmentSearchBinding
-import com.movieapp.presentation.home.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.collect
 
 @AndroidEntryPoint
 class SearchFragment : Fragment() {

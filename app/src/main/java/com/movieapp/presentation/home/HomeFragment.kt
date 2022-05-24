@@ -58,7 +58,9 @@ class HomeFragment : Fragment() {
 
         return ComposeView(requireContext()).apply {
             setContent {
-                Run()
+                val data by viewModel.uiState.collectAsState()
+
+                Run(data)
 
 
             }
@@ -66,8 +68,7 @@ class HomeFragment : Fragment() {
     }
 
     @Composable
-    fun Run() {
-        val data by viewModel.uiState.collectAsState()
+    fun Run(data: HomeUiState) {
         Column(modifier = Modifier.background(colorResource(id = R.color.blue))) {
 
 
@@ -113,14 +114,15 @@ class HomeFragment : Fragment() {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
+                .height(70.dp)
                 .background(colorResource(id = R.color.dark))
         ) {
-            Row(modifier = Modifier.padding(top = 30.dp, bottom = 10.dp)) {
+            Row(modifier = Modifier.padding(top = 30.dp), verticalAlignment = Alignment.CenterVertically) {
                 Image(
                     modifier = Modifier
                         .padding(start = 20.dp)
-                        .width(40.dp)
-                        .height(40.dp), painter = painterResource(id = R.drawable.logo), contentDescription = "logo"
+                        .width(30.dp)
+                        .height(30.dp), painter = painterResource(id = R.drawable.logo), contentDescription = "logo"
                 )
                 Text(
                     text = "OzkaFlix",
@@ -280,7 +282,6 @@ class HomeFragment : Fragment() {
                 modifier = Modifier,
                 contentAlignment = Alignment.BottomStart
             ) {
-
                 Text(
                     text = home.title,
                     modifier = Modifier.padding(bottom = 20.dp),
