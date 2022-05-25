@@ -70,8 +70,6 @@ class HomeFragment : Fragment() {
     @Composable
     fun Run(data: HomeUiState) {
         Column(modifier = Modifier.background(colorResource(id = R.color.blue))) {
-
-
             ItemHeader()
             if (data.home.isNotEmpty()) {
 
