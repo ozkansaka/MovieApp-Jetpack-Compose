@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.accompanist:accompanist-pager-indicators:0.13.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/28a1a054960f68fb96af1b6bdfdd587b/transformed/accompanist-pager-indicators-0.13.0/res" />
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/ef7c4b8f9203e3201d540d5f9cbdd8f4/transformed/accompanist-pager-indicators-0.13.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/ef7c4b8f9203e3201d540d5f9cbdd8f4/transformed/accompanist-pager-indicators-0.13.0/res" />
       <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/ef7c4b8f9203e3201d540d5f9cbdd8f4/transformed/accompanist-pager-indicators-0.13.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/ef7c4b8f9203e3201d540d5f9cbdd8f4/transformed/accompanist-pager-indicators-0.13.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/com.google.accompanist/accompanist-pager-indicators/0.13.0/7a294f658ed0a8770acea9cb7b45860163b40b72/accompanist-pager-indicators-0.13.0-javadoc.jar!/" />

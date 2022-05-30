@@ -2,8 +2,8 @@
   <library name="Gradle: androidx.navigation:navigation-dynamic-features-runtime:2.4.1@aar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/b6261c7cdc33fd4fa4e47590de3c8b96/transformed/navigation-dynamic-features-runtime-2.4.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/b6261c7cdc33fd4fa4e47590de3c8b96/transformed/navigation-dynamic-features-runtime-2.4.1/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/b6261c7cdc33fd4fa4e47590de3c8b96/transformed/navigation-dynamic-features-runtime-2.4.1/res" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/b6261c7cdc33fd4fa4e47590de3c8b96/transformed/navigation-dynamic-features-runtime-2.4.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

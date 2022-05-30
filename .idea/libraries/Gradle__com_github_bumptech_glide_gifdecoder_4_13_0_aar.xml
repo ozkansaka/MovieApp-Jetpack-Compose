@@ -4,10 +4,8 @@
       <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/06298a966f851e8bb7c66a2be8bb108e/transformed/gifdecoder-4.13.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/017d3785cdfeaa3cd773f38dc4f9e326/transformed/gifdecoder-4.13.0/res" />
-      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/017d3785cdfeaa3cd773f38dc4f9e326/transformed/gifdecoder-4.13.0/res" />
-      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/06298a966f851e8bb7c66a2be8bb108e/transformed/gifdecoder-4.13.0/res" />
       <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/06298a966f851e8bb7c66a2be8bb108e/transformed/gifdecoder-4.13.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/06298a966f851e8bb7c66a2be8bb108e/transformed/gifdecoder-4.13.0/res" />
       <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/06298a966f851e8bb7c66a2be8bb108e/transformed/gifdecoder-4.13.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

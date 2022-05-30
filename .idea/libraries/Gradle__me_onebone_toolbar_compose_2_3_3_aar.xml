@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: me.onebone:toolbar-compose:2.3.3@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/903cfb7081438f09d7d784106714d2f1/transformed/toolbar-compose-2.3.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/903cfb7081438f09d7d784106714d2f1/transformed/toolbar-compose-2.3.3/res" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/903cfb7081438f09d7d784106714d2f1/transformed/toolbar-compose-2.3.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/modules-2/files-2.1/me.onebone/toolbar-compose/2.3.3/1443efb271d382c8969025805e7aa81f0f7c3ee6/toolbar-compose-2.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

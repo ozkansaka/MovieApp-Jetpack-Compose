@@ -4,11 +4,9 @@
       <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/a3520cce9a42ac6c001b6ac80b4ea6eb/transformed/swiperefreshlayout-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0365634323e599aded7e5b219d6aa81e/transformed/swiperefreshlayout-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/0365634323e599aded7e5b219d6aa81e/transformed/swiperefreshlayout-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/a3520cce9a42ac6c001b6ac80b4ea6eb/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/a3520cce9a42ac6c001b6ac80b4ea6eb/transformed/swiperefreshlayout-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/a3520cce9a42ac6c001b6ac80b4ea6eb/transformed/swiperefreshlayout-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/a3520cce9a42ac6c001b6ac80b4ea6eb/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

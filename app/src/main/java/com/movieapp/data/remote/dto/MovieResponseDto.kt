@@ -12,7 +12,7 @@ data class MovieResponseDto(
 
     val adult: Boolean,
     @SerializedName("backdrop_path")
-    val backdropPath: String,
+    val backdropPath: String?,
     val id: Int,
     val name: String,
     @SerializedName("genre_ids")

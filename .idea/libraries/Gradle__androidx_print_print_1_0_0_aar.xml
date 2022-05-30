@@ -4,11 +4,9 @@
       <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/9f90eca3fae1fd4c47381056f1bd8ac4/transformed/print-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/16e65310a7b4ee255548e23cdf2263bd/transformed/print-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/16e65310a7b4ee255548e23cdf2263bd/transformed/print-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/9f90eca3fae1fd4c47381056f1bd8ac4/transformed/print-1.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/9f90eca3fae1fd4c47381056f1bd8ac4/transformed/print-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/9f90eca3fae1fd4c47381056f1bd8ac4/transformed/print-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../EngelsizYasam-master/gradle/wrapper/daemon/6.7/caches/transforms-3/9f90eca3fae1fd4c47381056f1bd8ac4/transformed/print-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
