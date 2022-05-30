@@ -171,7 +171,7 @@ class HomeFragment : Fragment() {
             ) {
                 Box(modifier = Modifier.fillMaxSize()) {
                     Image(
-                        modifier = Modifier.fillMaxSize(),
+                        modifier = Modifier.fillMaxSize().background(colorResource(id = R.color.blue)) ,
                         painter = rememberAsyncImagePainter(
                             model = "https://image.tmdb.org/t/p/w500${home.poster}"
                         ),
@@ -242,7 +242,7 @@ class HomeFragment : Fragment() {
             ) {
                 Box(modifier = Modifier.fillMaxSize()) {
                     Image(
-                        modifier = Modifier.fillMaxSize(),
+                        modifier = Modifier.fillMaxSize().background(colorResource(id = R.color.blue)) ,
                         painter = rememberAsyncImagePainter(
                             model = "https://image.tmdb.org/t/p/w500${home.image}"
                         ),

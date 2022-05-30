@@ -2,30 +2,39 @@ package com.movieapp.presentation.splash
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.CountDownTimer
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import com.movieapp.databinding.ActivitySplashBinding
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.LinearProgressIndicator
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import com.movieapp.R
 import com.movieapp.presentation.main.MainActivity
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivitySplashBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContent {
+            Run()
+        }
         val main = Intent(this, MainActivity::class.java)
-        startActivity(main)
-        finish()
 
-        /*var i = 0
+
         val timer = object : CountDownTimer(2000, 1000) {
 
             override fun onTick(millisUntilFinished: Long) {
-                binding.splashProgress.progress = i * 100 / (2000 / 1000)
-                i++
             }
 
             override fun onFinish() {
-                i++
-                binding.splashProgress.progress = 100
                 overridePendingTransition(0, 0)
                 main.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
                 startActivity(main)
@@ -33,6 +42,22 @@ class SplashActivity : AppCompatActivity() {
                 finish()
             }
         }
-        timer.start()*/
+        timer.start()
+    }
+
+    @Composable
+    @Preview(showBackground = true)
+    fun Run() {
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(colorResource(id = R.color.blue)), contentAlignment = Alignment.Center
+        ) {
+            Column(modifier = Modifier.width(100.dp)) {
+
+                Image(modifier = Modifier.padding(bottom = 20.dp), painter = painterResource(id = R.drawable.logo), contentDescription = "logo")
+                LinearProgressIndicator(color = colorResource(id = R.color.white),modifier = Modifier.background(colorResource(id = R.color.blue)))
+            }
+        }
     }
 }
