@@ -4,12 +4,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.Text
@@ -56,9 +58,7 @@ class SearchFragment : Fragment() {
         return ComposeView(requireContext()).apply {
             setContent {
                 val data by viewModel.uiState.collectAsState()
-
                 Run(data)
-
             }
         }
     }
@@ -71,15 +71,22 @@ class SearchFragment : Fragment() {
 
             val textState = remember { mutableStateOf(TextFieldValue("")) }
 
-
             SearchView(state = textState, placeHolder = "Search...")
-
 
             LazyColumn(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)) {
                 items(
                     items = data.search,
+                    key = { it.id },
                     itemContent = {
-                        ItemSearch(search = it)
+
+                        ItemSearch(
+                            search = it, modifier = Modifier.animateItemPlacement(
+                                animationSpec = tween(
+                                    600
+                                )
+                            )
+                        )
+
                     }
                 )
             }
@@ -108,8 +115,6 @@ class SearchFragment : Fragment() {
                 }
             )
         }
-
-
     }
 
 
@@ -118,7 +123,7 @@ class SearchFragment : Fragment() {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(70.dp)
+                .height(80.dp)
                 .background(colorResource(id = R.color.dark))
         ) {
             Row(modifier = Modifier.padding(top = 30.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -133,7 +138,6 @@ class SearchFragment : Fragment() {
                     )
                 )
             }
-
         }
     }
 

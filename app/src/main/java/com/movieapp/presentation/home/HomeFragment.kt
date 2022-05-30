@@ -112,7 +112,7 @@ class HomeFragment : Fragment() {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(70.dp)
+                .height(80.dp)
                 .background(colorResource(id = R.color.dark))
         ) {
             Row(modifier = Modifier.padding(top = 30.dp), verticalAlignment = Alignment.CenterVertically) {
